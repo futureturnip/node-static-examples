@@ -43,6 +43,4 @@ respond_with_500 = (context) ->
 server = http.createServer serve_file
 port = 3000
 server.listen port
-
-server.listen port
-console.log "The hand-crafted static file server is listening on port #{port}"
+console.log "The static file server is on port #{port}"
