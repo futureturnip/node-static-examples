@@ -1,10 +1,11 @@
 {
-  name: "node-static-examples",
-  author: "futureturnip <jeff.kwak@gmail.com>",
-  description: "Beginning experiments in serving static files with Node",
-  dependencies : [
-    "connect":"latest"
-  ],
-  keywords : [ "node", "coffeescript", "example"],
-  license: "MIT"
+  "name": "node-static-examples",
+  "author": "futureturnip <jeff.kwak@gmail.com>",
+  "description": "Beginning experiments in serving static files with Node",
+  "version" : "1.0.0",
+  "dependencies" : {
+    "connect": "*"
+  },
+  "keywords" : [ "node", "coffeescript", "example"],
+  "license": "MIT"
 }

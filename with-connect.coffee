@@ -1,9 +1,9 @@
 # with connect
-
 connect = require 'connect'
 
+server = connect()
+server.use connect.static('public')
 
-server = connect().use(connect.static('public'))
 port = 3001
 server.listen port
 
