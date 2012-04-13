@@ -4,6 +4,7 @@
   "description": "Beginning experiments in serving static files with Node",
   "version" : "1.0.0",
   "dependencies" : {
+    "zappa" : "*",
     "connect": "*"
   },
   "keywords" : [ "node", "coffeescript", "example"],
